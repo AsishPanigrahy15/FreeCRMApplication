@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Free CRM Test Suite" verbose="1">
+    <test name="CRM Functional Tests">
+
+        <!-- if you want to execute by class name-->
+        <classes>
+            <class name="com.qa.freecrm.tests.LoginPageTest"/>
+            <class name="com.qa.freecrm.tests.HomePageTest"/>
+            <class name="com.qa.freecrm.tests.ContactsPageTest"/>
+        </classes>
+
+        <!-- if you want to execute by package name -->
+        <!--<packages>
+            <package name="com.qa.freecrm.tests.*"/>
+        </packages>-->
+
+
+    </test>
+</suite>
